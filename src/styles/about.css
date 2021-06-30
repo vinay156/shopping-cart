@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 3px;
+  color: rgb(49, 204, 95);
+}
+
+p {
+  padding: 40px;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-weight: bolder;
+}

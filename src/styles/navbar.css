@@ -1,0 +1,27 @@
+.container {
+  min-height: 20px;
+  display: grid;
+  max-width: 100%;
+  background-color: rgb(12, 42, 59);
+}
+header {
+  padding: 15px 0;
+}
+
+nav,
+.nav-right {
+  display: flex;
+  font-size: 25px;
+}
+
+nav {
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+}

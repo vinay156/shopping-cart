@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home:before {
+  background-image: url(../image/cover-optimized.jpg);
+  content: "";
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.home h1 {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 3em;
+}
+
+.home a {
+  margin: 50px;
+  background-color: #fa2d48;
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}

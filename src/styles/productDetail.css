@@ -1,0 +1,28 @@
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+.product-left {
+  margin: 20px 580px;
+}
+
+.product-right {
+  text-align: center;
+  font-size: larger;
+}
+
+img {
+  max-width: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.add-to-cart-btn {
+  margin-bottom: 50px;
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(221, 80, 80);
+  border-radius: 20px;
+}
